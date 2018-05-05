@@ -1,3 +1,4 @@
+/* Repeating top-down gradient */
 * {
     background: linear-gradient(to bottom, lightyellow, yellow)
 }
@@ -5,8 +6,8 @@
 header {
     width: 140px;
     height: 70px;
-    border: 1px solid blue;
-    border-radius: 50%;
+    border: 1px solid blue; /* Near useless border */
+    border-radius: 50%; /* Transforms element from rectangle to oval */
     background: blue;
     padding: 20px;
     color: white;
